@@ -1,0 +1,19 @@
+{
+  "name": "hubble-error",
+  "namespace": "atlasp",
+  "version": "1.2.3",
+  "description": "Simple module that allows native Error objects to be extended",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^23.4.2"
+  },
+  "keywords": [
+    "nebulas",
+    "atlasp-hubble",
+    "error",
+    "extendable"
+  ],
+  "gitHead": "d3536fee21f7025796ac5b78153e08b7d92ba6d1"
+}

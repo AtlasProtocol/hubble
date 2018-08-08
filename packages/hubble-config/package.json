@@ -1,0 +1,24 @@
+{
+  "name": "hubble-config",
+  "namespace": "atlasp",
+  "version": "1.2.3",
+  "description": "Utility for interacting with hubble.js files",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "nebulas",
+    "hubble",
+    "config"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "find-up": "^3.0.0",
+    "hubble-error": "^1.2.3",
+    "lodash": "^4.17.10",
+    "original-require": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d3536fee21f7025796ac5b78153e08b7d92ba6d1"
+}

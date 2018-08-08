@@ -1,0 +1,21 @@
+{
+  "name": "hubble-expect",
+  "namespace": "atlasp",
+  "version": "1.2.3",
+  "description": "Simple module for ensuring specific options are passed to a function",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "jest-cli": "^23.4.2"
+  },
+  "keywords": [
+    "atlasp-hubble",
+    "nebulas",
+    "expect"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d3536fee21f7025796ac5b78153e08b7d92ba6d1"
+}

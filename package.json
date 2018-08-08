@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "lerna:bootstrap": "lerna bootstrap",
+    "bootstrap": "npm run lerna:bootstrap && npm run build:debugger",
+    "test": "lerna run test --stream -- --colors"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
+
