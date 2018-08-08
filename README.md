@@ -1,32 +1,47 @@
-Atlasp-Hubble is a development environment, testing framework for Nebulas, aiming to make life as an Nebulas developer easier. With Atlasp-Hubble, you get:
+# Atlasp-Hubble 
 
-Automated contract testing with Jest.
-Mock up contracts deployment and function testing.
+Hubble is a development environment, testing framework for Nebulas smart contracts, aiming to make life as an Nebulas developer easier. With Atlasp-Hubble, you get:
 
-Install
+- Convenient contract Javascript code unit testing with [Jest](https://jestjs.io/) with test coverage report.
+- Mock contracts deployment and function call testing.
+
+## Install
 
 $ npm install -g atlasp-hubble
 
-Quick Usage
+## Quick Usage
 
 For a default set of contracts and tests, run the following within an empty project directory:
 
-$ atlasp-hubble init
-You can put contract source file under 'contracts' folder, function testing file under 'run' folder and jest testing file under 'test' folder.
-There are example files under those folder after you run init and you can replace them your files.
-Find out more about how to write jest unite test file via https://jestjs.io/docs/en/using-matchers.
+	$ mkdir test & cd test
+	$ atlasp-hubble init
+	$ ls
+	contracts		init.js			package-lock.json	run
+	hubble.js		node_modules		package.json		test
 
-From there, you can run atlasp-hubble deploy, atlasp-hubble exec and atlasp-hubble test to deploy your contracts, test functions of contracts, and run their associated unit tests.
+You can put:
 
-Development
+- contract source files under `contracts` folder
+- function testing files under 'run' folder
+- jest tests under 'test' folder.
 
-# Install
-npm install -g lerna
-npm install -g yarn
-lerna bootstrap
+There are example files under those folder after you run init and you can replace them your codes or files.
+For unit testing, check out how to write unit tests for Javascript at [Jest document site](https://jestjs.io/docs/en/getting-started).
 
-go to packages/hubble
-npm run build
+Now, you can run:
+- `atlasp-hubble deploy` to deploy your contracts.
+- `atlasp-hubble exec` to call functions of the contracts and test functions of contracts.
+- `atlasp-hubble test` to run associated unit tests.
 
-License
+## For Developer
+
+### Install
+
+	npm install -g lerna
+	npm install -g yarn
+	lerna bootstrap
+	cd packages/hubble
+	npm run build
+
+## License
 MIT
