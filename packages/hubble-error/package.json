@@ -1,7 +1,7 @@
 {
   "name": "hubble-error",
   "namespace": "atlasp",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Simple module that allows native Error objects to be extended",
   "main": "index.js",
   "scripts": {},

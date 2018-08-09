@@ -1,7 +1,7 @@
 {
   "name": "hubble-config",
   "namespace": "atlasp",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Utility for interacting with hubble.js files",
   "main": "index.js",
   "scripts": {},
@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "find-up": "^3.0.0",
-    "hubble-error": "^1.2.3",
+    "hubble-error": "^1.2.4",
     "lodash": "^4.17.10",
     "original-require": "^1.0.1"
   },

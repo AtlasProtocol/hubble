@@ -1,7 +1,7 @@
 {
   "name": "hubble-expect",
   "namespace": "atlasp",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Simple module for ensuring specific options are passed to a function",
   "main": "index.js",
   "scripts": {},
