@@ -1,7 +1,7 @@
 {
   "name": "atlasp-hubble",
   "namespace": "atlasp",
-  "version": "1.2.21",
+  "version": "1.2.22",
   "description": "Hubble - Simple test framework for Nebulas",
   "bin": {
     "atlasp-hubble": "./build/cli.bundled.js"
