@@ -3,7 +3,7 @@
 Hubble is a development environment, testing framework for Nebulas smart contracts, aiming to make Nebulas developers' life easier. With Atlasp-Hubble, you get:
 
 - Convenient contract Javascript code unit testing with [Jest](https://jestjs.io/) with test coverage report.
-- Mocking environment contracts deployment and function call testing.
+- Mocking environment for contracts deployment and function call testing.
 
 ## Install
 
